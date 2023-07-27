@@ -31,15 +31,14 @@
  * DAMAGE.
  */
 /*
- * 
+ * Exploration of complex type abstraction.
  */
 package main
 
 import (
 	"fmt"
-
 	"os"
-	types "go_types"
+	types "github.com/syntelos/go-types"
 )
 
 const (

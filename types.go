@@ -31,16 +31,20 @@
  * DAMAGE.
  */
 /*
+ * Exploration of complex type abstraction.
  */
 package types
 /*
+ * Type classification operator.
  */
 type TypeIdentifier uint8
 const (
 	TypeIdentifierAbstract TypeIdentifier = iota
 	TypeIdentifierConcrete TypeIdentifier = TypeIdentifierAbstract+1
+	TypeIdentifierDerivative TypeIdentifier = TypeIdentifierConcrete+1
 )
 /*
+ * Type class abstraction.
  */
 type Abstract interface {
 
@@ -48,24 +52,52 @@ type Abstract interface {
 
 	List() string
 }
-
+/*
+ * Type class application.
+ */
 type Concrete struct {
 	Abstract
 }
-
-func Init() (abstract Abstract) {
+/*
+ * Type class derivation.
+ */
+type Derivative struct {
+	Concrete
+}
+/*
+ * Type class principal operator.
+ */
+func Init() Abstract {
 
 	var concrete Concrete
 
 	return concrete
 }
-
+/*
+ * Type class derivative operator.
+ */
 func (concrete Concrete) Type() TypeIdentifier {
 
 	return TypeIdentifierConcrete
 }
-
+/*
+ * Type class derivative operator.
+ */
 func (concrete Concrete) List() string {
 
 	return "Concrete"
+}
+/*
+ * Type class derivative operator.
+ */
+func (derivative Derivative) Type() TypeIdentifier {
+
+	return TypeIdentifierDerivative
+}
+/*
+ * Type class derivative operator.
+ */
+func (derivative Derivative) List() string {
+
+	return "Derivative"
 }

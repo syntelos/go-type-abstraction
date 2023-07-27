@@ -1,3 +1,3 @@
-module go_types
+module github.com/syntelos/go-types
 
 go 1.20
