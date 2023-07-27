@@ -38,7 +38,7 @@ package main
 import (
 	"fmt"
 	"os"
-	types "github.com/syntelos/go-types"
+	types "github.com/syntelos/go-type-abstraction"
 )
 
 const (
