@@ -41,17 +41,11 @@ import (
 	types "github.com/syntelos/go-type-abstraction"
 )
 
-const (
-	progname string = "list"
-)
-
 func main(){
 
 	var abstract Abstract = types.Init()
 
-	var list string = abstract.List()
-
-	fmt.Fprintf(os.Stderr, "%s\n",list)
+	fmt.Fprintf(os.Stderr, "type: %s\n",abstract.List())
 	
 	os.Exit(0)
 
