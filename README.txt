@@ -43,3 +43,8 @@ Debugging
 
     Generally, it illustrates the debugging of the compiler.
 
+
+Version
+
+    go 1.20.5
+
