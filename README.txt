@@ -46,6 +46,7 @@ Debugging
 
 Version
 
+    go 1.19.11
     go 1.20.5
     go 1.20.6
 
