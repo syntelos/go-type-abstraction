@@ -1,0 +1,2 @@
+b /usr/local/go/src/cmd/compile/internal/noder/noder.go:77
+b /usr/local/go/src/cmd/compile/internal/noder/irgen.go:120
