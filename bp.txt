@@ -1,4 +1,5 @@
 b /usr/local/src/go-types-review/src/cmd/go/main.go:182
 b /usr/local/src/go-types-review/src/cmd/go/main.go:264
-b /usr/local/src/go-types-review/src/cmd/go/internal/work/build.go:457
+b /usr/local/src/go-types-review/src/cmd/go/internal/work/action.go:584
+b /usr/local/src/go-types-review/src/cmd/go/internal/work/action.go:621
 b /usr/local/src/go-types-review/src/cmd/go/internal/work/build.go:544
