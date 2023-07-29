@@ -1,0 +1,32 @@
+﻿Source: go.dev/dl/go1.20.6.src.tar.gz
+Date: Friday, 28 July 2023
+Subject: go11tag
+
+
+Review
+
+Running "dlv go build" debugger as
+
+        dlv debug /usr/local/go/src/cmd/go/main.go …
+
+halts on compiling at
+
+        go-1.20.6/src/cmd/go/main.go:90: _ = go11tag
+
+
+Discussion
+
+A cursory review raises the question of purpose.  What is "go11tag", and why does it exist?
+
+        https://groups.google.com/g/golang-nuts/c/10PU4CZmlDg
+
+        https://github.com/syntelos/go-types-review/commit/f229e7031a6efb2f23241b5da000c3b3203081d6
+
+
+Resolution
+
+See compiler directives
+
+        https://github.com/golang/go/issues/41184
+
+

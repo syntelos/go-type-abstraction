@@ -1,0 +1,20 @@
+﻿Source: github.com/syntelos/go-type-abstraction
+Date: Saturday, 29 July 2023
+Subject: 
+
+
+Review
+
+The type abstraction recorded in [go-type-abstraction] and supported by [go-types-review] would be relatively expensive to resolve.
+
+
+Discussion
+
+Clearly the objective is critical.  However, the work effort required of resolution is a distraction from the principal objectives from which the exploration derived.
+
+
+References
+
+        [go-type-abstraction] github.com/syntelos/go-type-abstraction
+        [go-types-review] github.com/syntelos/go-types-review
+
