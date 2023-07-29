@@ -1,2 +1,4 @@
-b /usr/local/go/src/cmd/compile/internal/noder/noder.go:77
-b /usr/local/go/src/cmd/compile/internal/noder/irgen.go:120
+b /usr/local/src/go-types-review/src/cmd/go/main.go:182
+b /usr/local/src/go-types-review/src/cmd/go/main.go:264
+b /usr/local/src/go-types-review/src/cmd/go/internal/work/build.go:457
+b /usr/local/src/go-types-review/src/cmd/compile/internal/base/print.go:162

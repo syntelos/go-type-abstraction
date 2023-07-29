@@ -3,9 +3,9 @@ Review
 
     A first type abstraction fails to compile.
 
-    The Go programming language represents an interesting
-    perspective on the tradition and history of programming
-    languages.
+    The Go programming language [go] represents an
+    interesting perspective on the tradition and history of
+    programming languages.
 
     Categorical type theory becomes tedious in the GOLANG
     freedoms of convenience (i.e. r/t libc, type anonymity)
@@ -41,7 +41,8 @@ Debugging
     depends on the implicit configuration of the local go
     runtime.
 
-    Generally, it illustrates the debugging of the compiler.
+    Generally, it illustrates the debugging of the
+    compiler. [delve]
 
 
 Version
@@ -49,4 +50,14 @@ Version
     go 1.19.11
     go 1.20.5
     go 1.20.6
+    go 1.22 [devel] [go-types-review]
+
+
+References
+
+    [go] https://go.dev/
+    [devel] https://github.com/golang/go
+    [devel] https://go.googlesource.com/go
+    [go-types-review] https://github.com/syntelos/go-types-review
+    [delve] https://github.com/go-delve/delve
 
