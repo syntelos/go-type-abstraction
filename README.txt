@@ -50,7 +50,7 @@ Version
     go 1.19.11
     go 1.20.5
     go 1.20.6
-    go 1.22 [devel] [go-types-review]
+    go 1.21.0
 
 
 References
@@ -58,6 +58,5 @@ References
     [go] https://go.dev/
     [devel] https://github.com/golang/go
     [devel] https://go.googlesource.com/go
-    [go-types-review] https://github.com/syntelos/go-types-review
     [delve] https://github.com/go-delve/delve
 
