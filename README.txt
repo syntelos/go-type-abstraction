@@ -30,7 +30,7 @@ Building
 
         make run
 
-    succeeds.  See './run.go'.
+    succeeds.  See './main/run.go'.
 
 
 Version

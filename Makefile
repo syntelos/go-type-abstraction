@@ -6,7 +6,7 @@ gopl: $(go_targets)
 list: main/main.go $(go_sources)
 	go build -o $@ $<
 
-run: run.go
+run: main/run.go
 	go build -o $@ $<
 
 clean:
