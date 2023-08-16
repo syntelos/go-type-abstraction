@@ -3,25 +3,15 @@ Review
 
     A first type abstraction fails to compile.
 
-    The Go programming language [go] represents an
-    interesting perspective on the tradition and history of
-    programming languages.
-
-    Categorical type theory becomes tedious in the GOLANG
-    freedoms of convenience (i.e. r/t libc, type anonymity)
-    and expression (i.e. struct and interface distinction).
-    Features embellishing the logical abstraction with
-    practical effects.
-
-    The present moment of Go 1.20 seems encumbered with the
-    tedium.
+    The test case converted from "build main" file structure
+    to "run" file structure works.
 
 
 Building
 
     Running
 
-        make
+        make list
 
     fails with
 
@@ -31,18 +21,16 @@ Building
 	main/main.go:46:15: undefined: Abstract
 	make: *** [Makefile:7: list] Error 1
 
+    See
+        ./main/main.go
+	./types.go
 
-Debugging
 
-    The shell script
+    Running
 
-        ./db.sh
+        make run
 
-    depends on the implicit configuration of the local go
-    runtime.
-
-    Generally, it illustrates the debugging of the
-    compiler. [delve]
+    succeeds.  See './run.go'.
 
 
 Version
@@ -59,4 +47,5 @@ References
     [devel] https://github.com/golang/go
     [devel] https://go.googlesource.com/go
     [delve] https://github.com/go-delve/delve
+    [play] https://go.dev/play/p/5mr5M0luZ9k
 
