@@ -39,6 +39,7 @@ Version
     go 1.20.5
     go 1.20.6
     go 1.21.0
+    go 1.21.1
 
 
 References
